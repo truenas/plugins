@@ -1,0 +1,498 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+
+Files: *
+Copyright: 2018, Microsoft Corp
+License: Expat
+Comment: No explicit license found, using license(s) from:
+ vendor/github.com/Microsoft/hcsshim/LICENSE
+
+Files: vendor/golang.org/*
+Copyright: purposes
+License: BSD-3-clause
+Comment: No explicit license found, using license(s) from:
+ vendor/golang.org/x/sys/LICENSE
+
+Files: vendor/golang.org/x/sys/unix/affinity_linux.go
+       vendor/golang.org/x/sys/unix/aliases.go
+       vendor/golang.org/x/sys/unix/asm_aix_ppc64.s
+       vendor/golang.org/x/sys/unix/asm_darwin_386.s
+       vendor/golang.org/x/sys/unix/asm_darwin_amd64.s
+       vendor/golang.org/x/sys/unix/asm_darwin_arm.s
+       vendor/golang.org/x/sys/unix/asm_darwin_arm64.s
+       vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s
+       vendor/golang.org/x/sys/unix/asm_freebsd_386.s
+       vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s
+       vendor/golang.org/x/sys/unix/asm_freebsd_arm.s
+       vendor/golang.org/x/sys/unix/asm_freebsd_arm64.s
+       vendor/golang.org/x/sys/unix/asm_linux_386.s
+       vendor/golang.org/x/sys/unix/asm_linux_amd64.s
+       vendor/golang.org/x/sys/unix/asm_linux_arm.s
+       vendor/golang.org/x/sys/unix/asm_linux_arm64.s
+       vendor/golang.org/x/sys/unix/asm_linux_mips64x.s
+       vendor/golang.org/x/sys/unix/asm_linux_mipsx.s
+       vendor/golang.org/x/sys/unix/asm_linux_ppc64x.s
+       vendor/golang.org/x/sys/unix/asm_linux_riscv64.s
+       vendor/golang.org/x/sys/unix/asm_linux_s390x.s
+       vendor/golang.org/x/sys/unix/asm_netbsd_386.s
+       vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s
+       vendor/golang.org/x/sys/unix/asm_netbsd_arm.s
+       vendor/golang.org/x/sys/unix/asm_netbsd_arm64.s
+       vendor/golang.org/x/sys/unix/asm_openbsd_386.s
+       vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s
+       vendor/golang.org/x/sys/unix/asm_openbsd_arm.s
+       vendor/golang.org/x/sys/unix/asm_openbsd_arm64.s
+       vendor/golang.org/x/sys/unix/asm_solaris_amd64.s
+       vendor/golang.org/x/sys/unix/bluetooth_linux.go
+       vendor/golang.org/x/sys/unix/cap_freebsd.go
+       vendor/golang.org/x/sys/unix/constants.go
+       vendor/golang.org/x/sys/unix/dev_aix_ppc.go
+       vendor/golang.org/x/sys/unix/dev_aix_ppc64.go
+       vendor/golang.org/x/sys/unix/dev_darwin.go
+       vendor/golang.org/x/sys/unix/dev_dragonfly.go
+       vendor/golang.org/x/sys/unix/dev_freebsd.go
+       vendor/golang.org/x/sys/unix/dev_linux.go
+       vendor/golang.org/x/sys/unix/dev_netbsd.go
+       vendor/golang.org/x/sys/unix/dev_openbsd.go
+       vendor/golang.org/x/sys/unix/dirent.go
+       vendor/golang.org/x/sys/unix/endian_big.go
+       vendor/golang.org/x/sys/unix/endian_little.go
+       vendor/golang.org/x/sys/unix/env_unix.go
+       vendor/golang.org/x/sys/unix/errors_freebsd_386.go
+       vendor/golang.org/x/sys/unix/errors_freebsd_amd64.go
+       vendor/golang.org/x/sys/unix/errors_freebsd_arm.go
+       vendor/golang.org/x/sys/unix/fcntl.go
+       vendor/golang.org/x/sys/unix/fcntl_darwin.go
+       vendor/golang.org/x/sys/unix/fcntl_linux_32bit.go
+       vendor/golang.org/x/sys/unix/gccgo.go
+       vendor/golang.org/x/sys/unix/gccgo_c.c
+       vendor/golang.org/x/sys/unix/gccgo_linux_amd64.go
+       vendor/golang.org/x/sys/unix/ioctl.go
+       vendor/golang.org/x/sys/unix/mkall.sh
+       vendor/golang.org/x/sys/unix/mkerrors.sh
+       vendor/golang.org/x/sys/unix/pagesize_unix.go
+       vendor/golang.org/x/sys/unix/pledge_openbsd.go
+       vendor/golang.org/x/sys/unix/race.go
+       vendor/golang.org/x/sys/unix/race0.go
+       vendor/golang.org/x/sys/unix/sockcmsg_linux.go
+       vendor/golang.org/x/sys/unix/sockcmsg_unix.go
+       vendor/golang.org/x/sys/unix/str.go
+       vendor/golang.org/x/sys/unix/syscall.go
+       vendor/golang.org/x/sys/unix/syscall_aix.go
+       vendor/golang.org/x/sys/unix/syscall_aix_ppc.go
+       vendor/golang.org/x/sys/unix/syscall_aix_ppc64.go
+       vendor/golang.org/x/sys/unix/syscall_bsd.go
+       vendor/golang.org/x/sys/unix/syscall_darwin.go
+       vendor/golang.org/x/sys/unix/syscall_darwin_386.go
+       vendor/golang.org/x/sys/unix/syscall_darwin_amd64.go
+       vendor/golang.org/x/sys/unix/syscall_darwin_arm.go
+       vendor/golang.org/x/sys/unix/syscall_darwin_arm64.go
+       vendor/golang.org/x/sys/unix/syscall_darwin_libSystem.go
+       vendor/golang.org/x/sys/unix/syscall_dragonfly.go
+       vendor/golang.org/x/sys/unix/syscall_dragonfly_amd64.go
+       vendor/golang.org/x/sys/unix/syscall_freebsd.go
+       vendor/golang.org/x/sys/unix/syscall_freebsd_386.go
+       vendor/golang.org/x/sys/unix/syscall_freebsd_amd64.go
+       vendor/golang.org/x/sys/unix/syscall_freebsd_arm.go
+       vendor/golang.org/x/sys/unix/syscall_freebsd_arm64.go
+       vendor/golang.org/x/sys/unix/syscall_linux.go
+       vendor/golang.org/x/sys/unix/syscall_linux_386.go
+       vendor/golang.org/x/sys/unix/syscall_linux_amd64.go
+       vendor/golang.org/x/sys/unix/syscall_linux_amd64_gc.go
+       vendor/golang.org/x/sys/unix/syscall_linux_arm.go
+       vendor/golang.org/x/sys/unix/syscall_linux_arm64.go
+       vendor/golang.org/x/sys/unix/syscall_linux_gc.go
+       vendor/golang.org/x/sys/unix/syscall_linux_gc_386.go
+       vendor/golang.org/x/sys/unix/syscall_linux_gccgo_386.go
+       vendor/golang.org/x/sys/unix/syscall_linux_gccgo_arm.go
+       vendor/golang.org/x/sys/unix/syscall_linux_mips64x.go
+       vendor/golang.org/x/sys/unix/syscall_linux_mipsx.go
+       vendor/golang.org/x/sys/unix/syscall_linux_ppc64x.go
+       vendor/golang.org/x/sys/unix/syscall_linux_riscv64.go
+       vendor/golang.org/x/sys/unix/syscall_linux_s390x.go
+       vendor/golang.org/x/sys/unix/syscall_linux_sparc64.go
+       vendor/golang.org/x/sys/unix/syscall_netbsd.go
+       vendor/golang.org/x/sys/unix/syscall_netbsd_386.go
+       vendor/golang.org/x/sys/unix/syscall_netbsd_amd64.go
+       vendor/golang.org/x/sys/unix/syscall_netbsd_arm.go
+       vendor/golang.org/x/sys/unix/syscall_netbsd_arm64.go
+       vendor/golang.org/x/sys/unix/syscall_openbsd.go
+       vendor/golang.org/x/sys/unix/syscall_openbsd_386.go
+       vendor/golang.org/x/sys/unix/syscall_openbsd_amd64.go
+       vendor/golang.org/x/sys/unix/syscall_openbsd_arm.go
+       vendor/golang.org/x/sys/unix/syscall_openbsd_arm64.go
+       vendor/golang.org/x/sys/unix/syscall_solaris.go
+       vendor/golang.org/x/sys/unix/syscall_solaris_amd64.go
+       vendor/golang.org/x/sys/unix/syscall_unix.go
+       vendor/golang.org/x/sys/unix/syscall_unix_gc.go
+       vendor/golang.org/x/sys/unix/syscall_unix_gc_ppc64x.go
+       vendor/golang.org/x/sys/unix/timestruct.go
+       vendor/golang.org/x/sys/unix/unveil_openbsd.go
+       vendor/golang.org/x/sys/unix/xattr_bsd.go
+       vendor/golang.org/x/sys/windows/aliases.go
+       vendor/golang.org/x/sys/windows/asm_windows_386.s
+       vendor/golang.org/x/sys/windows/asm_windows_amd64.s
+       vendor/golang.org/x/sys/windows/asm_windows_arm.s
+       vendor/golang.org/x/sys/windows/dll_windows.go
+       vendor/golang.org/x/sys/windows/env_windows.go
+       vendor/golang.org/x/sys/windows/eventlog.go
+       vendor/golang.org/x/sys/windows/exec_windows.go
+       vendor/golang.org/x/sys/windows/memory_windows.go
+       vendor/golang.org/x/sys/windows/mkerrors.bash
+       vendor/golang.org/x/sys/windows/mkknownfolderids.bash
+       vendor/golang.org/x/sys/windows/mksyscall.go
+       vendor/golang.org/x/sys/windows/race.go
+       vendor/golang.org/x/sys/windows/race0.go
+       vendor/golang.org/x/sys/windows/registry/key.go
+       vendor/golang.org/x/sys/windows/registry/mksyscall.go
+       vendor/golang.org/x/sys/windows/registry/syscall.go
+       vendor/golang.org/x/sys/windows/registry/value.go
+       vendor/golang.org/x/sys/windows/security_windows.go
+       vendor/golang.org/x/sys/windows/service.go
+       vendor/golang.org/x/sys/windows/str.go
+       vendor/golang.org/x/sys/windows/syscall.go
+       vendor/golang.org/x/sys/windows/syscall_windows.go
+       vendor/golang.org/x/sys/windows/types_windows.go
+       vendor/golang.org/x/sys/windows/types_windows_386.go
+       vendor/golang.org/x/sys/windows/types_windows_amd64.go
+       vendor/golang.org/x/sys/windows/types_windows_arm.go
+Copyright: 2009-2019, The Go Authors
+License: BSD
+
+Files: LICENSE
+       integration/*
+       pkg/*
+       plugins/*
+Copyright: 2014-2020, CNI authors
+License: Apache-2
+
+Files: vendor/golang.org/x/net/*
+Copyright: 2012-2017, The Go Authors
+License: BSD
+
+Files: .idea/*
+       .travis.yml
+       CONTRIBUTING.md
+       DCO
+       OWNERS.md
+       README.md
+       RELEASING.md
+       bin/*
+       build_linux.sh
+       build_windows.sh
+       go.mod
+       go.sum
+       integration/testdata/*
+       pkg/hns/hns_suite_windows_test.go
+       pkg/ip/ipforward_linux_test.go
+       pkg/ns/README.md
+       pkg/testutils/echosvr/*
+       plugins/ipam/dhcp/README.md
+       plugins/ipam/dhcp/client.go
+       plugins/ipam/dhcp/systemd/*
+       plugins/ipam/host-local/README.md
+       plugins/ipam/static/README.md
+       plugins/linux_only.txt
+       plugins/main/bridge/README.md
+       plugins/main/host-device/README.md
+       plugins/main/ipvlan/README.md
+       plugins/main/macvlan/README.md
+       plugins/main/ptp/README.md
+       plugins/main/windows/CONTRIBUTORS.md
+       plugins/main/windows/build.sh
+       plugins/main/windows/win-bridge/README.md
+       plugins/main/windows/win-bridge/sample.conf
+       plugins/main/windows/win-overlay/README.md
+       plugins/main/windows/win-overlay/sample.conf
+       plugins/meta/bandwidth/README.md
+       plugins/meta/firewall/README.md
+       plugins/meta/flannel/README.md
+       plugins/meta/portmap/README.md
+       plugins/meta/sbr/README.md
+       plugins/meta/sbr/sbr_suite_test.go
+       plugins/meta/tuning/README.md
+       plugins/sample/README.md
+       plugins/sample/sample_suite_test.go
+       plugins/windows_only.txt
+       scripts/*
+       test_linux.sh
+       test_windows.sh
+       vendor/modules.txt
+Copyright: #####
+           CW   !  <@CC@CCB@CCCCCCC>
+           H½9¦2HõRõÈ*[Ð
+           2004-2006, The Linux Foundation and its contributors
+           The contribution was provided directly to me by some other
+License: Apache-2
+Comment: No explicit license found, using license(s) from:
+ LICENSE
+
+Files: vendor/github.com/vishvananda/*
+License: Apache-2
+Comment: No explicit license found, using license(s) from:
+ vendor/github.com/vishvananda/netlink/LICENSE
+
+Files: vendor/github.com/onsi/*
+License: Expat
+Comment: No explicit license found, using license(s) from:
+ vendor/github.com/onsi/gomega/LICENSE
+
+Files: vendor/golang.org/x/net/AUTHORS
+       vendor/golang.org/x/net/CONTRIBUTORS
+       vendor/golang.org/x/net/PATENTS
+       vendor/golang.org/x/net/internal/iana/*
+       vendor/golang.org/x/net/internal/socket/zsys_darwin_386.go
+       vendor/golang.org/x/net/internal/socket/zsys_darwin_amd64.go
+       vendor/golang.org/x/net/internal/socket/zsys_darwin_arm.go
+       vendor/golang.org/x/net/internal/socket/zsys_darwin_arm64.go
+       vendor/golang.org/x/net/internal/socket/zsys_dragonfly_amd64.go
+       vendor/golang.org/x/net/internal/socket/zsys_freebsd_386.go
+       vendor/golang.org/x/net/internal/socket/zsys_freebsd_amd64.go
+       vendor/golang.org/x/net/internal/socket/zsys_freebsd_arm.go
+       vendor/golang.org/x/net/internal/socket/zsys_linux_386.go
+       vendor/golang.org/x/net/internal/socket/zsys_linux_amd64.go
+       vendor/golang.org/x/net/internal/socket/zsys_linux_arm.go
+       vendor/golang.org/x/net/internal/socket/zsys_linux_arm64.go
+       vendor/golang.org/x/net/internal/socket/zsys_linux_mips.go
+       vendor/golang.org/x/net/internal/socket/zsys_linux_mips64.go
+       vendor/golang.org/x/net/internal/socket/zsys_linux_mips64le.go
+       vendor/golang.org/x/net/internal/socket/zsys_linux_mipsle.go
+       vendor/golang.org/x/net/internal/socket/zsys_linux_ppc64.go
+       vendor/golang.org/x/net/internal/socket/zsys_linux_ppc64le.go
+       vendor/golang.org/x/net/internal/socket/zsys_linux_s390x.go
+       vendor/golang.org/x/net/internal/socket/zsys_netbsd_386.go
+       vendor/golang.org/x/net/internal/socket/zsys_netbsd_amd64.go
+       vendor/golang.org/x/net/internal/socket/zsys_netbsd_arm.go
+       vendor/golang.org/x/net/internal/socket/zsys_openbsd_386.go
+       vendor/golang.org/x/net/internal/socket/zsys_openbsd_amd64.go
+       vendor/golang.org/x/net/internal/socket/zsys_openbsd_arm.go
+       vendor/golang.org/x/net/internal/socket/zsys_solaris_amd64.go
+       vendor/golang.org/x/net/ipv4/iana.go
+       vendor/golang.org/x/net/ipv4/zsys_darwin.go
+       vendor/golang.org/x/net/ipv4/zsys_dragonfly.go
+       vendor/golang.org/x/net/ipv4/zsys_freebsd_386.go
+       vendor/golang.org/x/net/ipv4/zsys_freebsd_amd64.go
+       vendor/golang.org/x/net/ipv4/zsys_freebsd_arm.go
+       vendor/golang.org/x/net/ipv4/zsys_linux_386.go
+       vendor/golang.org/x/net/ipv4/zsys_linux_amd64.go
+       vendor/golang.org/x/net/ipv4/zsys_linux_arm.go
+       vendor/golang.org/x/net/ipv4/zsys_linux_arm64.go
+       vendor/golang.org/x/net/ipv4/zsys_linux_mips.go
+       vendor/golang.org/x/net/ipv4/zsys_linux_mips64.go
+       vendor/golang.org/x/net/ipv4/zsys_linux_mips64le.go
+       vendor/golang.org/x/net/ipv4/zsys_linux_mipsle.go
+       vendor/golang.org/x/net/ipv4/zsys_linux_ppc.go
+       vendor/golang.org/x/net/ipv4/zsys_linux_ppc64.go
+       vendor/golang.org/x/net/ipv4/zsys_linux_ppc64le.go
+       vendor/golang.org/x/net/ipv4/zsys_linux_s390x.go
+       vendor/golang.org/x/net/ipv4/zsys_netbsd.go
+       vendor/golang.org/x/net/ipv4/zsys_openbsd.go
+       vendor/golang.org/x/net/ipv4/zsys_solaris.go
+Copyright: purposes
+License: BSD-3-clause
+Comment: No explicit license found, using license(s) from:
+ vendor/golang.org/x/net/LICENSE
+
+Files: vendor/github.com/onsi/ginkgo/*
+License: Expat
+Comment: No explicit license found, using license(s) from:
+ vendor/github.com/onsi/ginkgo/LICENSE
+
+Files: vendor/github.com/godbus/*
+License: BSD-2-clause
+Comment: No explicit license found, using license(s) from:
+ vendor/github.com/godbus/dbus/LICENSE
+
+Files: vendor/github.com/containernetworking/*
+Copyright: 2014-2019, CNI authors
+License: Apache-2
+
+Files: vendor/github.com/sirupsen/*
+License: Expat
+Comment: No explicit license found, using license(s) from:
+ vendor/github.com/sirupsen/logrus/LICENSE
+
+Files: vendor/github.com/Microsoft/go-winio/*
+License: Expat
+Comment: No explicit license found, using license(s) from:
+ vendor/github.com/Microsoft/go-winio/LICENSE
+
+Files: vendor/github.com/buger/*
+License: Expat
+Comment: No explicit license found, using license(s) from:
+ vendor/github.com/buger/jsonparser/LICENSE
+
+Files: vendor/golang.org/x/crypto/*
+Copyright: 2011-2016, The Go Authors
+License: BSD
+
+Files: vendor/github.com/j-keck/*
+License: Expat
+Comment: No explicit license found, using license(s) from:
+ vendor/github.com/j-keck/arping/LICENSE
+
+Files: vendor/github.com/safchain/*
+License: Apache-2
+
+Files: vendor/github.com/d2g/*
+License: MPL-2
+Comment: No explicit license found, using license(s) from:
+ vendor/github.com/d2g/dhcp4client/LICENSE
+
+Files: vendor/github.com/d2g/dhcp4/*
+License: BSD-3-clause
+Comment: No explicit license found, using license(s) from:
+ vendor/github.com/d2g/dhcp4/LICENSE
+
+Files: vendor/github.com/d2g/dhcp4server/*
+License: MPL-2
+Comment: No explicit license found, using license(s) from:
+ vendor/github.com/d2g/dhcp4server/LICENSE
+
+Files: vendor/github.com/mattn/*
+License: Expat
+Comment: No explicit license found, using license(s) from:
+ vendor/github.com/mattn/go-shellwords/LICENSE
+
+Files: vendor/github.com/coreos/*
+Copyright: 2015, CoreOS, Inc
+License: Apache-2
+
+Files: vendor/github.com/vishvananda/netns/*
+License: Apache-2
+Comment: No explicit license found, using license(s) from:
+ vendor/github.com/vishvananda/netns/LICENSE
+
+Files: vendor/golang.org/x/crypto/AUTHORS
+       vendor/golang.org/x/crypto/CONTRIBUTORS
+       vendor/golang.org/x/crypto/PATENTS
+Copyright: purposes
+License: BSD-3-clause
+Comment: No explicit license found, using license(s) from:
+ vendor/golang.org/x/crypto/LICENSE
+
+Files: vendor/github.com/coreos/go-iptables/*
+Copyright: 2015, CoreOS, Inc
+License: Apache-2
+
+Files: vendor/github.com/sirupsen/logrus/LICENSE
+       vendor/github.com/sirupsen/logrus/alt_exit.go
+Copyright: 2012, Miki Tebeka <miki.tebeka@gmail.com>
+           2014, Simon Eskildsen
+License: Expat
+
+Files: vendor/github.com/alexflint/*
+Copyright: 2013, The Go Authors
+License: BSD
+
+Files: vendor/github.com/safchain/ethtool/.travis.yml
+       vendor/github.com/safchain/ethtool/Makefile
+License: Apache-2
+Comment: No explicit license found, using license(s) from:
+ vendor/github.com/safchain/ethtool/LICENSE
+
+Files: vendor/github.com/vishvananda/netns/LICENSE
+Copyright: 2014, Docker, Inc
+           2014, Vishvananda Ishaya
+License: Apache-2
+
+Files: vendor/github.com/vishvananda/netlink/LICENSE
+Copyright: 2014, Docker, Inc
+           2014, Vishvananda Ishaya
+License: Apache-2
+
+Files: vendor/github.com/godbus/dbus/LICENSE
+Copyright: 2013, ), Google
+           2013, Georg Reinke ( <guelfey@gmail.com>
+License: BSD-2-clause
+
+Files: vendor/golang.org/x/net/LICENSE
+Copyright: 2009, The Go Authors
+License: BSD-3-clause
+
+Files: vendor/golang.org/x/sys/LICENSE
+Copyright: 2009, The Go Authors
+License: BSD-3-clause
+
+Files: vendor/golang.org/x/crypto/LICENSE
+Copyright: 2009, The Go Authors
+License: BSD-3-clause
+
+Files: vendor/github.com/alexflint/go-filemutex/LICENSE
+Copyright: 2010-2017, Alex Flint
+License: Expat
+
+Files: vendor/github.com/d2g/dhcp4/LICENSE
+Copyright: 2013, Skagerrak Software Limited
+License: BSD-3-clause
+
+Files: vendor/github.com/coreos/go-iptables/NOTICE
+Copyright: 2018, CoreOS, Inc
+License: Apache-2
+Comment: No explicit license found, using license(s) from:
+ vendor/github.com/coreos/go-iptables/LICENSE
+
+Files: vendor/github.com/coreos/go-systemd/NOTICE
+Copyright: 2018, CoreOS, Inc
+License: Apache-2
+Comment: No explicit license found, using license(s) from:
+ vendor/github.com/coreos/go-systemd/LICENSE
+
+Files: vendor/github.com/j-keck/arping/LICENSE
+Copyright: 2014-2016, j-keck <jhyphenkeck@gmail.com>
+License: Expat
+
+Files: vendor/github.com/onsi/gomega/LICENSE
+Copyright: 2013-2014, Onsi Fakhouri
+License: Expat
+
+Files: vendor/github.com/onsi/ginkgo/LICENSE
+Copyright: 2013-2014, Onsi Fakhouri
+License: Expat
+
+Files: vendor/github.com/mattn/go-shellwords/LICENSE
+Copyright: 2017, Yasuhiro Matsumoto
+License: Expat
+
+Files: vendor/github.com/Microsoft/hcsshim/LICENSE
+Copyright: 2015, Microsoft
+License: Expat
+
+Files: vendor/github.com/Microsoft/go-winio/LICENSE
+Copyright: 2015, Microsoft
+License: Expat
+
+Files: vendor/github.com/sirupsen/logrus/terminal_linux.go
+Copyright: 2013, The Go Authors
+License: BSD
+
+Files: vendor/github.com/buger/jsonparser/LICENSE
+Copyright: 2016, Leonid Bugaev
+License: Expat
+
+Files: vendor/github.com/alexflint/go-filemutex/README.md
+License: Expat
+Comment: No explicit license found, using license(s) from:
+ vendor/github.com/alexflint/go-filemutex/LICENSE
+
+Files: vendor/github.com/d2g/dhcp4client/LICENSE
+License: MPL-2
+
+Files: vendor/github.com/d2g/dhcp4server/LICENSE
+License: MPL-2
+
+Files: debian/*
+License: Apache-2
+Comment: No explicit license found, using license(s) from:
+ LICENSE
+
+License: Apache-2
+
+License: BSD
+
+License: BSD-2-clause
+
+License: BSD-3-clause
+
+License: Expat
+
+License: MPL-2

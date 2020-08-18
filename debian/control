@@ -1,0 +1,14 @@
+Source: container-plugins
+Section: admin
+Priority: optional
+Maintainer: Waqar Ahmed <waqar@ixsystems.com>
+Build-Depends:	golang,
+		debhelper-compat (= 12)
+Standards-Version: 4.4.0
+Homepage: http://www.truenas.com
+
+Package: container-plugins
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: K8s container plugins package
+ This package is supposed to provide binaries for k8s container plugins.

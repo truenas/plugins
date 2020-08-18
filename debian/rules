@@ -1,0 +1,24 @@
+#!/usr/bin/make -f
+# export DH_VERBOSE = 1
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	sh -c "\
+		./build_linux.sh || exit 1; \
+	"
+
+override_dh_auto_install:
+	sh -c "\
+		mkdir -p debian/container-plugins/opt/cni; \
+		cp -a bin debian/container-plugins/opt/cni/; \
+	"
+
+override_dh_shlibdeps:
+
+override_dh_usrlocal:
+
+override_dh_auto_clean:
+
+override_dh_auto_test:
